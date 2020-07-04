@@ -40,6 +40,28 @@
         android:hint="사용할 닉네임 입력"
         android:singleLine="true"/>
 
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남성" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여성" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공개 안 함" />
+
+    </RadioGroup>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -51,6 +73,12 @@
         android:hint="추천해준 사람의 닉네임을 검색하세요."
         android:singleLine="true"
         android:imeOptions="actionSearch"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="이용약관에 동의합니다." />
 
     <Button
         android:layout_width="match_parent"
